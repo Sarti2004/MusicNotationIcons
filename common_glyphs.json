@@ -1,0 +1,957 @@
+[
+ {
+  "name": "gClef",
+  "category": "clefs",
+  "description": "G clef"
+ },
+ {
+  "name": "fClef",
+  "category": "clefs",
+  "description": "F clef"
+ },
+ {
+  "name": "cClef",
+  "category": "clefs",
+  "description": "C clef"
+ },
+ {
+  "name": "unpitchedPercussionClef1",
+  "category": "clefs",
+  "description": "Unpitched percussion clef 1"
+ },
+ {
+  "name": "6stringTabClef",
+  "category": "clefs",
+  "description": "6-string tab clef"
+ },
+ {
+  "name": "gClef8vb",
+  "category": "clefs",
+  "description": "G clef ottava bassa"
+ },
+ {
+  "name": "gClef8va",
+  "category": "clefs",
+  "description": "G clef ottava alta"
+ },
+ {
+  "name": "fClef8vb",
+  "category": "clefs",
+  "description": "F clef ottava bassa"
+ },
+ {
+  "name": "noteDoubleWhole",
+  "category": "notes",
+  "description": "Double whole note (breve)"
+ },
+ {
+  "name": "noteWhole",
+  "category": "notes",
+  "description": "Whole note (semibreve)"
+ },
+ {
+  "name": "noteHalfUp",
+  "category": "notes",
+  "description": "Half note (minim) stem up"
+ },
+ {
+  "name": "noteQuarterUp",
+  "category": "notes",
+  "description": "Quarter note (crotchet) stem up"
+ },
+ {
+  "name": "note8thUp",
+  "category": "notes",
+  "description": "Eighth note (quaver) stem up"
+ },
+ {
+  "name": "note16thUp",
+  "category": "notes",
+  "description": "16th note (semiquaver) stem up"
+ },
+ {
+  "name": "note32ndUp",
+  "category": "notes",
+  "description": "32nd note (demisemiquaver) stem up"
+ },
+ {
+  "name": "noteHalfDown",
+  "category": "notes",
+  "description": "Half note (minim) stem down"
+ },
+ {
+  "name": "noteQuarterDown",
+  "category": "notes",
+  "description": "Quarter note (crotchet) stem down"
+ },
+ {
+  "name": "note8thDown",
+  "category": "notes",
+  "description": "Eighth note (quaver) stem down"
+ },
+ {
+  "name": "note16thDown",
+  "category": "notes",
+  "description": "16th note (semiquaver) stem down"
+ },
+ {
+  "name": "noteheadWhole",
+  "category": "noteheads",
+  "description": "Whole (semibreve) notehead"
+ },
+ {
+  "name": "noteheadHalf",
+  "category": "noteheads",
+  "description": "Half (minim) notehead"
+ },
+ {
+  "name": "noteheadBlack",
+  "category": "noteheads",
+  "description": "Black notehead"
+ },
+ {
+  "name": "noteheadXBlack",
+  "category": "noteheads",
+  "description": "X notehead black"
+ },
+ {
+  "name": "noteheadDiamondWhite",
+  "category": "noteheads",
+  "description": "Diamond white notehead"
+ },
+ {
+  "name": "noteheadSlashHorizontalEnds",
+  "category": "noteheads",
+  "description": "Slash with horizontal ends"
+ },
+ {
+  "name": "noteheadCircleX",
+  "category": "noteheads",
+  "description": "Circle X notehead"
+ },
+ {
+  "name": "restDoubleWhole",
+  "category": "rests",
+  "description": "Double whole (breve) rest"
+ },
+ {
+  "name": "restWhole",
+  "category": "rests",
+  "description": "Whole (semibreve) rest"
+ },
+ {
+  "name": "restHalf",
+  "category": "rests",
+  "description": "Half (minim) rest"
+ },
+ {
+  "name": "restQuarter",
+  "category": "rests",
+  "description": "Quarter (crotchet) rest"
+ },
+ {
+  "name": "rest8th",
+  "category": "rests",
+  "description": "Eighth (quaver) rest"
+ },
+ {
+  "name": "rest16th",
+  "category": "rests",
+  "description": "16th (semiquaver) rest"
+ },
+ {
+  "name": "rest32nd",
+  "category": "rests",
+  "description": "32nd (demisemiquaver) rest"
+ },
+ {
+  "name": "restHBar",
+  "category": "rests",
+  "description": "Multiple measure rest"
+ },
+ {
+  "name": "augmentationDot",
+  "category": "dots_flags",
+  "description": "Augmentation dot"
+ },
+ {
+  "name": "flag8thUp",
+  "category": "dots_flags",
+  "description": "Combining flag 1 (8th) above"
+ },
+ {
+  "name": "flag16thUp",
+  "category": "dots_flags",
+  "description": "Combining flag 2 (16th) above"
+ },
+ {
+  "name": "flag8thDown",
+  "category": "dots_flags",
+  "description": "Combining flag 1 (8th) below"
+ },
+ {
+  "name": "accidentalFlat",
+  "category": "accidentals",
+  "description": "Flat"
+ },
+ {
+  "name": "accidentalNatural",
+  "category": "accidentals",
+  "description": "Natural"
+ },
+ {
+  "name": "accidentalSharp",
+  "category": "accidentals",
+  "description": "Sharp"
+ },
+ {
+  "name": "accidentalDoubleFlat",
+  "category": "accidentals",
+  "description": "Double flat"
+ },
+ {
+  "name": "accidentalDoubleSharp",
+  "category": "accidentals",
+  "description": "Double sharp"
+ },
+ {
+  "name": "accidentalQuarterToneFlatStein",
+  "category": "accidentals",
+  "description": "Reversed flat (quarter-tone flat) (Stein)"
+ },
+ {
+  "name": "accidentalQuarterToneSharpStein",
+  "category": "accidentals",
+  "description": "Half sharp (quarter-tone sharp) (Stein)"
+ },
+ {
+  "name": "accidentalParensLeft",
+  "category": "accidentals",
+  "description": "Accidental parenthesis, left"
+ },
+ {
+  "name": "accidentalParensRight",
+  "category": "accidentals",
+  "description": "Accidental parenthesis, right"
+ },
+ {
+  "name": "timeSig0",
+  "category": "time_signatures",
+  "description": "Time signature 0"
+ },
+ {
+  "name": "timeSig1",
+  "category": "time_signatures",
+  "description": "Time signature 1"
+ },
+ {
+  "name": "timeSig2",
+  "category": "time_signatures",
+  "description": "Time signature 2"
+ },
+ {
+  "name": "timeSig3",
+  "category": "time_signatures",
+  "description": "Time signature 3"
+ },
+ {
+  "name": "timeSig4",
+  "category": "time_signatures",
+  "description": "Time signature 4"
+ },
+ {
+  "name": "timeSig5",
+  "category": "time_signatures",
+  "description": "Time signature 5"
+ },
+ {
+  "name": "timeSig6",
+  "category": "time_signatures",
+  "description": "Time signature 6"
+ },
+ {
+  "name": "timeSig7",
+  "category": "time_signatures",
+  "description": "Time signature 7"
+ },
+ {
+  "name": "timeSig8",
+  "category": "time_signatures",
+  "description": "Time signature 8"
+ },
+ {
+  "name": "timeSig9",
+  "category": "time_signatures",
+  "description": "Time signature 9"
+ },
+ {
+  "name": "timeSigCommon",
+  "category": "time_signatures",
+  "description": "Common time"
+ },
+ {
+  "name": "timeSigCutCommon",
+  "category": "time_signatures",
+  "description": "Cut time"
+ },
+ {
+  "name": "timeSigPlus",
+  "category": "time_signatures",
+  "description": "Time signature +"
+ },
+ {
+  "name": "dynamicPiano",
+  "category": "dynamics",
+  "description": "Piano"
+ },
+ {
+  "name": "dynamicMezzo",
+  "category": "dynamics",
+  "description": "Mezzo"
+ },
+ {
+  "name": "dynamicForte",
+  "category": "dynamics",
+  "description": "Forte"
+ },
+ {
+  "name": "dynamicRinforzando",
+  "category": "dynamics",
+  "description": "Rinforzando"
+ },
+ {
+  "name": "dynamicSforzando",
+  "category": "dynamics",
+  "description": "Sforzando"
+ },
+ {
+  "name": "dynamicZ",
+  "category": "dynamics",
+  "description": "Z"
+ },
+ {
+  "name": "dynamicNiente",
+  "category": "dynamics",
+  "description": "Niente"
+ },
+ {
+  "name": "dynamicPPP",
+  "category": "dynamics",
+  "description": "ppp"
+ },
+ {
+  "name": "dynamicPP",
+  "category": "dynamics",
+  "description": "pp"
+ },
+ {
+  "name": "dynamicMP",
+  "category": "dynamics",
+  "description": "mp"
+ },
+ {
+  "name": "dynamicMF",
+  "category": "dynamics",
+  "description": "mf"
+ },
+ {
+  "name": "dynamicFF",
+  "category": "dynamics",
+  "description": "ff"
+ },
+ {
+  "name": "dynamicFFF",
+  "category": "dynamics",
+  "description": "fff"
+ },
+ {
+  "name": "dynamicFortePiano",
+  "category": "dynamics",
+  "description": "Forte-piano"
+ },
+ {
+  "name": "dynamicSforzato",
+  "category": "dynamics",
+  "description": "Sforzato"
+ },
+ {
+  "name": "dynamicSforzando1",
+  "category": "dynamics",
+  "description": "Sforzando 1"
+ },
+ {
+  "name": "dynamicRinforzando2",
+  "category": "dynamics",
+  "description": "Rinforzando 2"
+ },
+ {
+  "name": "dynamicCrescendoHairpin",
+  "category": "dynamics",
+  "description": "Crescendo"
+ },
+ {
+  "name": "dynamicDiminuendoHairpin",
+  "category": "dynamics",
+  "description": "Diminuendo"
+ },
+ {
+  "name": "articAccentAbove",
+  "category": "articulations",
+  "description": "Accent above"
+ },
+ {
+  "name": "articStaccatoAbove",
+  "category": "articulations",
+  "description": "Staccato above"
+ },
+ {
+  "name": "articTenutoAbove",
+  "category": "articulations",
+  "description": "Tenuto above"
+ },
+ {
+  "name": "articStaccatissimoAbove",
+  "category": "articulations",
+  "description": "Staccatissimo above"
+ },
+ {
+  "name": "articMarcatoAbove",
+  "category": "articulations",
+  "description": "Marcato above"
+ },
+ {
+  "name": "articAccentStaccatoAbove",
+  "category": "articulations",
+  "description": "Accent-staccato above"
+ },
+ {
+  "name": "articTenutoStaccatoAbove",
+  "category": "articulations",
+  "description": "Louré (tenuto-staccato) above"
+ },
+ {
+  "name": "articTenutoAccentAbove",
+  "category": "articulations",
+  "description": "Tenuto-accent above"
+ },
+ {
+  "name": "articMarcatoStaccatoAbove",
+  "category": "articulations",
+  "description": "Marcato-staccato above"
+ },
+ {
+  "name": "articStressAbove",
+  "category": "articulations",
+  "description": "Stress above"
+ },
+ {
+  "name": "articUnstressAbove",
+  "category": "articulations",
+  "description": "Unstress above"
+ },
+ {
+  "name": "fermataAbove",
+  "category": "fermatas_breaths",
+  "description": "Fermata above"
+ },
+ {
+  "name": "fermataShortAbove",
+  "category": "fermatas_breaths",
+  "description": "Short fermata above"
+ },
+ {
+  "name": "fermataLongAbove",
+  "category": "fermatas_breaths",
+  "description": "Long fermata above"
+ },
+ {
+  "name": "fermataVeryLongAbove",
+  "category": "fermatas_breaths",
+  "description": "Very long fermata above"
+ },
+ {
+  "name": "breathMarkComma",
+  "category": "fermatas_breaths",
+  "description": "Breath mark (comma)"
+ },
+ {
+  "name": "breathMarkTick",
+  "category": "fermatas_breaths",
+  "description": "Breath mark (tick-like)"
+ },
+ {
+  "name": "caesura",
+  "category": "fermatas_breaths",
+  "description": "Caesura"
+ },
+ {
+  "name": "caesuraCurved",
+  "category": "fermatas_breaths",
+  "description": "Curved caesura"
+ },
+ {
+  "name": "ornamentTrill",
+  "category": "ornaments",
+  "description": "Trill"
+ },
+ {
+  "name": "ornamentTurn",
+  "category": "ornaments",
+  "description": "Turn"
+ },
+ {
+  "name": "ornamentTurnInverted",
+  "category": "ornaments",
+  "description": "Inverted turn"
+ },
+ {
+  "name": "ornamentMordent",
+  "category": "ornaments",
+  "description": "Mordent"
+ },
+ {
+  "name": "ornamentShortTrill",
+  "category": "ornaments",
+  "description": "Short trill"
+ },
+ {
+  "name": "ornamentTremblement",
+  "category": "ornaments",
+  "description": "Tremblement"
+ },
+ {
+  "name": "graceNoteAcciaccaturaStemUp",
+  "category": "ornaments",
+  "description": "Slashed grace note stem up"
+ },
+ {
+  "name": "graceNoteAppoggiaturaStemUp",
+  "category": "ornaments",
+  "description": "Grace note stem up"
+ },
+ {
+  "name": "wiggleTrill",
+  "category": "ornaments",
+  "description": "Trill wiggle segment"
+ },
+ {
+  "name": "arpeggiato",
+  "category": "ornaments",
+  "description": "Arpeggiato"
+ },
+ {
+  "name": "glissandoUp",
+  "category": "ornaments",
+  "description": "Glissando up"
+ },
+ {
+  "name": "segno",
+  "category": "repeats_navigation",
+  "description": "Segno"
+ },
+ {
+  "name": "coda",
+  "category": "repeats_navigation",
+  "description": "Coda"
+ },
+ {
+  "name": "codaSquare",
+  "category": "repeats_navigation",
+  "description": "Square coda"
+ },
+ {
+  "name": "repeatLeft",
+  "category": "repeats_navigation",
+  "description": "Left (start) repeat sign"
+ },
+ {
+  "name": "repeatRight",
+  "category": "repeats_navigation",
+  "description": "Right (end) repeat sign"
+ },
+ {
+  "name": "repeatRightLeft",
+  "category": "repeats_navigation",
+  "description": "Right and left repeat sign"
+ },
+ {
+  "name": "repeat1Bar",
+  "category": "repeats_navigation",
+  "description": "Repeat last bar"
+ },
+ {
+  "name": "repeat2Bars",
+  "category": "repeats_navigation",
+  "description": "Repeat last two bars"
+ },
+ {
+  "name": "repeatDots",
+  "category": "repeats_navigation",
+  "description": "Repeat dots"
+ },
+ {
+  "name": "dalSegno",
+  "category": "repeats_navigation",
+  "description": "Dal segno"
+ },
+ {
+  "name": "daCapo",
+  "category": "repeats_navigation",
+  "description": "Da capo"
+ },
+ {
+  "name": "barlineSingle",
+  "category": "barlines",
+  "description": "Single barline"
+ },
+ {
+  "name": "barlineDouble",
+  "category": "barlines",
+  "description": "Double barline"
+ },
+ {
+  "name": "barlineFinal",
+  "category": "barlines",
+  "description": "Final barline"
+ },
+ {
+  "name": "barlineReverseFinal",
+  "category": "barlines",
+  "description": "Reverse final barline"
+ },
+ {
+  "name": "barlineDashed",
+  "category": "barlines",
+  "description": "Dashed barline"
+ },
+ {
+  "name": "barlineHeavy",
+  "category": "barlines",
+  "description": "Heavy barline"
+ },
+ {
+  "name": "ottava",
+  "category": "octaves",
+  "description": "Ottava"
+ },
+ {
+  "name": "ottavaAlta",
+  "category": "octaves",
+  "description": "Ottava alta"
+ },
+ {
+  "name": "ottavaBassaVb",
+  "category": "octaves",
+  "description": "Ottava bassa (8vb)"
+ },
+ {
+  "name": "quindicesima",
+  "category": "octaves",
+  "description": "Quindicesima"
+ },
+ {
+  "name": "quindicesimaAlta",
+  "category": "octaves",
+  "description": "Quindicesima alta"
+ },
+ {
+  "name": "tremolo1",
+  "category": "tremolos",
+  "description": "Combining tremolo 1"
+ },
+ {
+  "name": "tremolo2",
+  "category": "tremolos",
+  "description": "Combining tremolo 2"
+ },
+ {
+  "name": "tremolo3",
+  "category": "tremolos",
+  "description": "Combining tremolo 3"
+ },
+ {
+  "name": "buzzRoll",
+  "category": "tremolos",
+  "description": "Buzz roll"
+ },
+ {
+  "name": "tuplet3",
+  "category": "tuplets_tempo",
+  "description": "Tuplet 3"
+ },
+ {
+  "name": "tuplet5",
+  "category": "tuplets_tempo",
+  "description": "Tuplet 5"
+ },
+ {
+  "name": "tuplet6",
+  "category": "tuplets_tempo",
+  "description": "Tuplet 6"
+ },
+ {
+  "name": "textTie",
+  "category": "tuplets_tempo",
+  "description": "Tie"
+ },
+ {
+  "name": "metNoteQuarterUp",
+  "category": "tuplets_tempo",
+  "description": "Quarter note (crotchet) stem up"
+ },
+ {
+  "name": "metNote8thUp",
+  "category": "tuplets_tempo",
+  "description": "Eighth note (quaver) stem up"
+ },
+ {
+  "name": "metNoteHalfUp",
+  "category": "tuplets_tempo",
+  "description": "Half note (minim) stem up"
+ },
+ {
+  "name": "keyboardPedalPed",
+  "category": "keyboard",
+  "description": "Pedal mark"
+ },
+ {
+  "name": "keyboardPedalUp",
+  "category": "keyboard",
+  "description": "Pedal up mark"
+ },
+ {
+  "name": "keyboardPedalHalf2",
+  "category": "keyboard",
+  "description": "Half pedal mark 1"
+ },
+ {
+  "name": "keyboardPedalSost",
+  "category": "keyboard",
+  "description": "Sostenuto pedal mark"
+ },
+ {
+  "name": "stringsDownBow",
+  "category": "strings",
+  "description": "Down bow"
+ },
+ {
+  "name": "stringsUpBow",
+  "category": "strings",
+  "description": "Up bow"
+ },
+ {
+  "name": "stringsHarmonic",
+  "category": "strings",
+  "description": "Harmonic"
+ },
+ {
+  "name": "stringsThumbPosition",
+  "category": "strings",
+  "description": "Thumb position"
+ },
+ {
+  "name": "pluckedSnapPizzicatoAbove",
+  "category": "strings",
+  "description": "Snap pizzicato above"
+ },
+ {
+  "name": "pluckedLeftHandPizzicato",
+  "category": "strings",
+  "description": "Left-hand pizzicato"
+ },
+ {
+  "name": "stringsMuteOn",
+  "category": "strings",
+  "description": "Mute on"
+ },
+ {
+  "name": "stringsMuteOff",
+  "category": "strings",
+  "description": "Mute off"
+ },
+ {
+  "name": "brassMuteClosed",
+  "category": "wind_brass",
+  "description": "Muted (closed)"
+ },
+ {
+  "name": "brassMuteOpen",
+  "category": "wind_brass",
+  "description": "Open"
+ },
+ {
+  "name": "windClosedHole",
+  "category": "wind_brass",
+  "description": "Closed hole"
+ },
+ {
+  "name": "windOpenHole",
+  "category": "wind_brass",
+  "description": "Open hole"
+ },
+ {
+  "name": "csymMajorSeventh",
+  "category": "chord_symbols",
+  "description": "Major seventh"
+ },
+ {
+  "name": "csymDiminished",
+  "category": "chord_symbols",
+  "description": "Diminished"
+ },
+ {
+  "name": "csymHalfDiminished",
+  "category": "chord_symbols",
+  "description": "Half-diminished"
+ },
+ {
+  "name": "csymAugmented",
+  "category": "chord_symbols",
+  "description": "Augmented"
+ },
+ {
+  "name": "fingering0",
+  "category": "fingering",
+  "description": "Fingering 0 (open string)"
+ },
+ {
+  "name": "fingering1",
+  "category": "fingering",
+  "description": "Fingering 1 (thumb)"
+ },
+ {
+  "name": "fingering2",
+  "category": "fingering",
+  "description": "Fingering 2 (index finger)"
+ },
+ {
+  "name": "fingering3",
+  "category": "fingering",
+  "description": "Fingering 3 (middle finger)"
+ },
+ {
+  "name": "fingering4",
+  "category": "fingering",
+  "description": "Fingering 4 (ring finger)"
+ },
+ {
+  "name": "fingering5",
+  "category": "fingering",
+  "description": "Fingering 5 (little finger)"
+ },
+ {
+  "name": "pictTimpani",
+  "category": "percussion",
+  "description": "Timpani"
+ },
+ {
+  "name": "arrowBlackDown",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "arrowBlackDownLeft",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "arrowBlackDownRight",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "arrowBlackLeft",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "arrowBlackRight",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "arrowBlackUp",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "arrowBlackUpLeft",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "arrowBlackUpRight",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "timeSig2over2",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "timeSig2over4",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "timeSig3over2",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "timeSig3over4",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "timeSig3over8",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "timeSig4over4",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "timeSig5over4",
+  "category": "other",
+  "description": "other"
+ },
+  {
+  "name": "timeSig5over8",
+  "category": "other",
+  "description": "other"
+ },
+  {
+  "name": "timeSig6over4",
+  "category": "other",
+  "description": "other"
+ },
+  {
+  "name": "timeSig6over8",
+  "category": "other",
+  "description": "other"
+ },
+  {
+  "name": "timeSig7over8",
+  "category": "other",
+  "description": "other"
+ },
+  {
+  "name": "timeSig9over8",
+  "category": "other",
+  "description": "other"
+ },
+  {
+  "name": "timeSig12over8",
+  "category": "other",
+  "description": "other"
+ },
+ {
+  "name": "pictSnareDrum",
+  "category": "percussion",
+  "description": "Snare drum"
+ }
+]
